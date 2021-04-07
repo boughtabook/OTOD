@@ -1,0 +1,494 @@
+
+/*ref Dani Krossing course*/
+/*MY CODE BELOW*/
+
+* {
+    text-decoration: none;
+}
+* {
+    font-family:"Avenir";
+}
+
+body {
+    background-color: #fff;
+}
+main {
+    padding-top: 50px;
+}
+header{
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+}
+header .header-brand{
+    font-family: "Avenir";
+    font-size: 35px;
+    font-weight: 900;
+    color: #111;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* top navigation - menus*/
+
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+header nav ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+}
+header nav ul li a {
+    font-family: "Avenir";
+    font-size: 18px;
+    color: #111;
+}
+header .header-profiles {
+    display: none;
+}
+/* set layout responsiveness website parameters*/
+@media only screen and (min-width: 1000px) {
+    header .header-brand {
+        margin: 31px 0;
+        text-align: left;
+        line-height: 40px;
+        padding: 0 20px 0 40px;
+        border-right: 3px solid #111;
+        float: left;
+    }
+  }
+
+header nav ul {
+    margin: 20px 0 0 20px;
+    float: left;
+}
+
+header nav ul li a {
+    line-height: 60px;
+}
+/*right hand side nav - menu box*/
+header .header-profiles {
+    display: block;
+    font-family: "Avenir";
+    font-size: 18px;
+    color: #111;
+    line-height: 40px;
+    border: 1px solid #111;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+/*INDEX PAGE*/
+
+.index-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('video/OTOD.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+/*centre of My Profile heading*/
+
+.vertical-center {
+    line-height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.index-links div {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+
+@media only screen and (min-width: 1000px) {
+    .wrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+  }
+
+p  {
+    line-height: 1.5;
+    font-size: 18px;
+    color: #111
+}
+
+li {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+ul li {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+/* styling link pages - menus*/
+
+.index-links div h3 {
+    font-family: 'Avenir';
+    font-size: 28px;
+    font-weight: 100;
+    line-height: 100px;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.index-banner {
+        height: 500px;
+}
+
+.index-links {
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.index-links div {
+    margin: 20px 10px 0;
+    height: 230px;
+    background-color: #f2f2f2;
+    float: left;
+}
+
+.index-squarelink-square {
+    width: calc(25% - 20px)!important;
+}
+
+.index-squarelink-rectangle {
+    width: calc(50% - 20px)!important;
+}
+
+.index-links div h3 {
+    line-height: 230px;
+}
+
+/*MEET THE TEAM PAGE*/
+.about-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('img/OTOD-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.vertical-center {
+    line-height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+}
+.about-banner h2 {
+    font-family: 'Avenir';
+    font-size: 20px;
+    color: #f6f6f6;
+    text-align: center;
+    text-shadow: 2px 2px 5px #897c4d
+}
+
+.about-banner {
+        height: 500px;
+}
+
+.about-pages {
+    font-size: 20px;
+}
+@media only screen and (min-width: 1000px) {
+    .wrapper{
+        width: 1000px;
+        margin: 0 auto;
+    }
+  }
+
+/*TEAM PROFILE PAGE*/
+.profiles-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('img/addimage.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.vertical-center {
+    line-height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.profiles-banner h1 {
+    font-family: 'Avenir';
+    font-size: 28px;
+    font-weight: 200px;
+    font-style: italic;
+    line-height: 35px;
+    color: #111;
+    text-align: center;
+}
+.profiles-banner h2 {
+    font-family: 'Avenir';
+    font-size: 70px;
+    color: #111;
+    text-align: left;
+    text-shadow: 2px 2px 5px #897c4d
+}
+
+.profiles-banner {
+        height: 500px;
+}
+
+.profiles-pages {
+    font-size: 16px;
+}
+
+.profiles-pages h3 {
+    font-size: 20px;
+    text-align: left;
+}
+
+@media only screen and (min-width: 1000px) {
+    .wrapper{
+        width: 1000px;
+        margin: 0 auto;
+    }
+  }
+/* IT Technologies PAGE*/
+.tech-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('img/addimage.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.vertical-center {
+    line-height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tech-banner h1 {
+    font-family: 'Avenir';
+    font-size: 28px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 35px;
+    color: #d3d3d3;
+    text-align: center;
+}
+
+.tech-banner h2 {
+    font-family: 'Avenir';
+    font-size: 70px;
+    color: #f4f4f4;
+    text-align: center;
+    text-shadow: 2px 2px 5px #897c4d
+}
+
+.tech-banner {
+        height: 500px;
+}
+
+.tech-pages {
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .wrapper{
+        width: 1000px;
+        margin: 0 auto;
+    }
+  }
+/*IT INDUSTRY PAGE*/
+.job-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('img/addimage.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.vertical-center {
+    line-height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.job-banner h1 {
+    font-family: 'Avenir';
+    font-size: 28px;
+    font-weight: 200px;
+    font-style: italic;
+    line-height: 35px;
+    color: #111;
+    text-align: center;
+}
+
+.job-banner h2 {
+    font-family: 'Avenir';
+    font-size: 70px;
+    color: #111;
+    text-align: center;
+    text-shadow: 2px 2px 5px #897c4d
+}
+
+.job-banner {
+        height: 500px;
+}
+
+.job-pages {
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .wrapper{
+        width: 1000px;
+        margin: 0 auto;
+    }
+  }
+/*TEAM PROJECT PAGE */
+.project-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('img/addimage.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+h2 {
+    font-family: 'Avenir';
+    font-size: 70px;
+    color: #111;
+    text-align: center;
+    text-shadow: 2px 2px 5px #897c4d
+}
+
+.vertical-center {
+    line-height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.project-banner {
+        height: 500px;
+}
+
+.project-pages {
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .wrapper{
+        width: 1000px;
+        margin: 0 auto;
+    }
+  }
+/*TEAM Review PAGE*/
+.review-banner {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-image: url('img/addimage.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+h2 {
+    font-family: 'Avenir';
+    font-size: 70px;
+    color: #111;
+    text-align: center;
+    text-shadow: 2px 2px 5px #897c4d
+}
+
+.vertical-center {
+    line-height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.review-banner {
+        height: 500px;
+}
+
+.review-pages {
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .wrapper{
+        width: 1000px;
+        margin: 0 auto;
+    }
+  }
+/* FOOTER CODE - CONTAINER*/
+
+footer {
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    margin-top: 20px;
+    background-color: #777;
+    overflow: hidden;
+}
+
+.footer-list {
+    font-family: 'Avenir';
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 30px;
+    color: #111;
+    text-align: left;
+}
+
+footer ul {
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+/*lists*/
+footer ul li {
+    display: block;
+    list-style: none;
+}
+/*menu anchor tag - link styling*/
+footer ul li a {
+    font-family: "Avenir";
+    font-size: 24px;
+    color: #111;
+    line-height: 40px;
+}
+
+.footer-sm {
+    width: 50px;
+    padding-right: 20px;
+    float: right;
+}
+
+.footer-sm img {
+    width: 100%;
+    margin-bottom: 10px;
+}
