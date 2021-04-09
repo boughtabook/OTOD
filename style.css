@@ -360,7 +360,7 @@ ul li {
 }
 
 .job-pages {
-    font-size: 20px;
+    font-size : 20px;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -369,6 +369,23 @@ ul li {
         margin: 0 auto;
     }
   }
+/*Team Interview Page*/
+
+
+.link{
+    text-align: right;
+    margin-right: 250px;
+}
+
+.interview_body{
+    margin-left: 100px;
+
+}
+.content{
+    margin-right: 100px;
+}
+
+
 /*TEAM PROJECT PAGE */
 .project-banner {
     width: 100%;
