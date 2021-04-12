@@ -271,6 +271,66 @@ ul li {
         margin: 0 auto;
     }
   }
+
+/*Industry data Tables*/
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+#t1 th,td{
+  padding: 5px;
+}
+
+#t1 th{
+  background-color: #a8a7a8
+}
+
+#t1 tr:nth-child(even){
+  background-color: #fff;
+}
+#t1 tr:nth-child(odd){
+  background-color: #eee;
+}
+#tc{
+  font-size: 25px;
+}
+.row{
+  display: flex;
+  margin-left:-5px;
+  margin-right:-5px;
+}
+
+.column{
+  flex: 50%;
+  padding: 5px;
+}
+
+.row th{
+  background-color: #a8a7a8
+}
+.row tr:nth-child(even){
+  background-color: #fff;
+}
+
+.row tr:nth-child(odd){
+  background-color: #eee;
+}
+
+#t3 th{
+  background-color: #a8a7a8
+}
+
+#t3 tr:nth-child(even){
+  background-color: #fff;
+}
+
+#t3 tr:nth-child(odd){
+  background-color: #eee;
+}
+
+
 /* IT Technologies PAGE*/
 .tech-banner {
     width: 100%;
