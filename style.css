@@ -380,6 +380,45 @@ table, th, td{
         margin: 0 auto;
     }
   }
+
+.diplo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+
+#t4 tr:nth-child(2){
+  background-color: #d68924;
+}
+#t4 tr:nth-child(3){
+  background-color: #ede051;
+}
+#t4 tr:nth-child(4){
+  background-color: #6e94cc;
+}
+#t4 tr:nth-child(5){
+  background-color: #a8a7a8;
+}
+
+#t5 tr:nth-child(2){
+  background-color: #828783;
+}
+#t5 tr:nth-child(3){
+  background-color: #5fc7bb;
+}
+#t5 tr:nth-child(4){
+  background-color: #a74dd1;
+}
+#t5 tr:nth-child(5){
+  background-color: #e8aa0e;
+}
+
+#t5 td{
+  font-size: 18px;
+}
+
 /*IT INDUSTRY PAGE*/
 .job-banner {
     width: 100%;
