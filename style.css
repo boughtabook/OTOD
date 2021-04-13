@@ -380,6 +380,11 @@ table, th, td{
         margin: 0 auto;
     }
   }
+/*Personality page*/
+
+#indPro{
+  border-bottom: 5px solid red;
+}
 
 .diplo{
     display: block;
