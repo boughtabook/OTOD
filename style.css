@@ -494,7 +494,7 @@ table, th, td{
 .project-banner {
     width: 100%;
     height: calc(100vh - 100px);
-    background-image: url('img/mycarpal5');
+    background-image: url('img/mycarpal5.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
