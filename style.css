@@ -569,40 +569,21 @@ h2 {
 /* FOOTER CODE - CONTAINER*/
 
 footer {
-    width: calc(100% - 80px);
+    width: 100%;
     padding: 40px 40px;
     margin-top: 20px;
-    background-color: #777;
+    background-color: #b0aeae;
     overflow: hidden;
 }
 
-.footer-list {
+.footer_to_main {
     font-family: 'Avenir';
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 100;
     line-height: 30px;
     color: #111;
-    text-align: left;
+    text-align: center;
 }
-
-footer ul {
-    width: fit-content;
-    float: left;
-    padding-left: 20px;
-}
-/*lists*/
-footer ul li {
-    display: block;
-    list-style: none;
-}
-/*menu anchor tag - link styling*/
-footer ul li a {
-    font-family: "Avenir";
-    font-size: 24px;
-    color: #111;
-    line-height: 40px;
-}
-
 .footer-sm {
     width: 50px;
     padding-right: 20px;
