@@ -335,7 +335,7 @@ table, th, td{
 .tech-banner {
     width: 100%;
     height: calc(100vh - 100px);
-    background-image: url('img/marvinmeyer.jpg');
+    background-image: url('img/av2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -428,7 +428,7 @@ table, th, td{
 .job-banner {
     width: 100%;
     height: calc(100vh - 100px);
-    background-image: url('img/addimage.jpg');
+    background-image: url('img/marvinmeyer.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
