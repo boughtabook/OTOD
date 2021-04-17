@@ -582,6 +582,11 @@ h2 {
         margin: 0 auto;
     }
   }
+
+.project-pages h3{
+  font-size: 25px;
+}
+
 /* FOOTER CODE - CONTAINER*/
 
 footer {
